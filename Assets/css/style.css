@@ -106,16 +106,6 @@ p {
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
 .benefit-lead img {
     display: block;
     margin: 10px auto;
@@ -173,9 +163,7 @@ p {
     max-height: 200px;
 }
 
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+
 }
 
 .online-reputation-management h2 {
@@ -183,7 +171,7 @@ p {
     font-size: 36px;
 }
 
-.social-media-marketing h2 {
+ h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
