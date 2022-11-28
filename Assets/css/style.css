@@ -16,7 +16,7 @@ body {
 }
 
 .header h1 {
-    display: inline-block;
+    display: block;
     font-size: 48px;
 }
 
@@ -37,7 +37,7 @@ body {
 }
 
 .header div ul li {
-    display: inline-block;
+    display: block;
     margin-left: 25px;
 }
 
@@ -59,14 +59,9 @@ p {
     background-position: center;
 }
 
-.float-left {
+.float-left, .float-right  {
     float: left;
     margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
 }
 
 .content {
@@ -101,30 +96,19 @@ p {
     color: #ffffff;
 }
 
-.benefit-lead h3 {
+h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-lead img {
+.benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
 
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
+h2 {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -133,56 +117,23 @@ p {
     color: #ffffff;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
+img {
+    display: block;
     max-height: 200px;
 }
 
 
-}
 
-.online-reputation-management h2 {
+h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
- h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 
 .footer {
+    font-size: 20px;
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-}
-
-.footer h2 {
-    font-size: 20px;
 }
