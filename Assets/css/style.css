@@ -58,7 +58,7 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/* consolidated tags with same properties */
 .float-left,
 .float-right  {
     float: left;
